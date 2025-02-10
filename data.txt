@@ -1,0 +1,62 @@
+{
+  "productos": [
+    {
+      "id": 1,
+      "title": "Producto Nuevo",
+      "descripcion": "Descripción del producto nuevo",
+      "precio": 100,
+      "codigo": "PN001",
+      "stock": 49,
+      "category": "Categoría Nueva",
+      "thumbnails": [
+        "imagen1.jpg",
+        "imagen2.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Producto Nuevo",
+      "descripcion": "Descripción del producto nuevo",
+      "precio": 100,
+      "codigo": "PN001",
+      "stock": 49,
+      "category": "Categoría Nueva",
+      "thumbnails": [
+        "imagen1.jpg",
+        "imagen2.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Producto Nuevo",
+      "descripcion": "Descripción del producto nuevo",
+      "precio": 100,
+      "codigo": "PN001",
+      "stock": 48,
+      "category": "Categoría Nueva",
+      "thumbnails": [
+        "imagen1.jpg",
+        "imagen2.jpg"
+      ]
+    }
+  ],
+  "carrito": [
+    {
+      "id": 1,
+      "products": [
+        {
+          "id": "2",
+          "quantity": 1
+        },
+        {
+          "id": "1",
+          "quantity": 1
+        },
+        {
+          "id": "3",
+          "quantity": 2
+        }
+      ]
+    }
+  ]
+}
