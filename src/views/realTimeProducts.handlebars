@@ -1,0 +1,30 @@
+<div>
+    <h1>Agregar producto:</h1>
+    <form >
+        <input type="text" id="nameProduct" placeholder="Nombre de prodcuto" required>
+        <input type="number" id="priceProduct" placeholder="Precio de producto" required>
+        <button id="send">Enviar</button>
+    </form>
+</div>
+
+<div>
+    <form id="deleteForm">
+        <br>
+        <br>
+        <h2>Eliminar productos:</h2>
+        <input type="number" id="idProduct" placeholder="Buscar producto por ID" required>
+        <button type="submit" id="eliminateButton">Eliminar</button>
+    </form>
+</div>
+
+
+
+<div>
+    <br>
+    <br>
+    <h2>Productos:</h2>
+    <div id="productContainer"></div>
+</div>
+
+ <script src="/socket.io/socket.io.js"></script> 
+ <script src="/js/index.js"></script>
